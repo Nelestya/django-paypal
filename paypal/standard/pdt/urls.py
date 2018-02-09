@@ -6,4 +6,5 @@ from paypal.standard.pdt import views
 
 urlpatterns = [
     path('', views.pdt, name="paypal-pdt"),
+
 ]
